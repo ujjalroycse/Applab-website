@@ -1,0 +1,447 @@
+@media all and (max-width:1200px){
+    .container {
+        width: 90%;
+    }
+    .single-header h1 {
+        font-size: 5rem;
+    }
+    
+    .header-content {
+        width: 90%;
+    }
+
+    .awesome-image img{
+        width: 90%;
+    }
+    
+    .jackpot-header h2:after{
+        display: none;
+    }
+
+    .designer-img-content {
+        grid-gap: 2rem;
+    }
+    .designer-img img {
+        margin-left: -7%;
+        width: 95%;
+    }
+
+    .built-area:before{
+        display: none;
+    }
+    .built-background-image {
+        display: block;
+    }
+    .built-content {
+        max-width: 700px;
+    }
+
+    .amount-area {
+        padding-top: 1rem;
+    }
+
+    .client-area {
+        background: none;
+        margin: 1rem 0 ;
+    }
+    .client-content {
+        max-width: 700px;
+    }
+    .client-area-width {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .client-profile {
+        margin: auto;
+        max-width: 500px;
+        margin-top: 3rem;
+    }
+    .client-background {
+        display: block;
+    }
+
+    .question-area {
+        padding-top: 3rem;
+    }
+
+    .download-area{
+        background:none;
+        padding: 0;
+    }
+
+    .download-location {
+        display: block;
+    }
+    
+}
+
+@media all and (max-width:1100px){
+    .header-items {
+        -ms-grid-columns: 120px 1fr;
+            grid-template-columns: 120px 1fr;
+    }
+    .header-content {
+        width: 97%;
+    }
+    .header-inage img {
+        margin-left: 13%;
+    }
+
+    .company-header {
+        margin: 2rem;
+    }
+    .company {
+        margin: 2rem 3rem 0;
+    }
+
+    .jackpot-header {
+        width: 95%;
+        margin-bottom: 8.5rem;
+        grid-gap: 2rem;
+    }
+    .jackpot-header h2{
+        max-width: 450px;
+    }
+
+    .jackpot-icon-content {
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }
+    .jacpot-content {
+        margin-bottom: 4rem;
+    }
+
+    .designer-area {
+        padding-top: 1rem;
+    }
+
+    
+}
+
+@media all and (max-width:992px){
+    
+    .header-content {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-top: 5rem;
+    }
+    .single-header-top{
+        width: 80%;
+        text-align: center;
+    }
+    .single-header {
+        margin: 3rem 0 0;
+    }
+    .header-inage img {
+        margin-left: 0;
+    }
+
+    .awesome-image-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .awesome-image {
+        margin-left: 0;
+    }
+    .awesome-content {
+        margin-left: 0;
+    }
+    .awesome-header h2 {
+        max-width: 500px;
+        margin-bottom: 1.5rem;
+    }
+    .awesome-header p {
+        margin-bottom: 5rem;
+        max-width: 600px;
+    }
+    .awesome-icon-content {
+        margin-bottom: 3.5rem;
+    }
+    .awesome-icon-cnt p{
+        max-width: 500px;
+        margin: 0;
+    }
+
+    .jackpot-header {
+        grid-gap: 1rem;
+    }
+    .jackpot-header h2 {
+        font-size: 3rem;
+    }
+
+    .designer-area {
+        padding-top: 3rem;
+    }
+    .designer-img-content {
+        -ms-grid-columns: auto;
+            grid-template-columns: auto;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .designer-content {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .designer-content {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+        max-width: 55rem;
+    }
+    .designer-img {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .designer-img img {
+        margin-left: -50px;
+        width: 115%;
+    }
+
+    .choose-apps {
+        -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(2,1fr);
+        grid-gap: 3rem;
+    }
+
+    .amount-area {
+        padding-top: 0;
+    }
+    
+}
+
+@media all and (max-width:930px) {
+    .slide-menu {
+        position: absolute;
+        top: 107px;
+        width: 90%;
+        height: 0;
+        text-align: center;
+        overflow: hidden;
+        transition: 1s;
+        border-radius: 1rem;
+    }
+    .slide-menu.active{
+        height: 165px;
+    }
+    .slide-menu ul{
+        display: block;
+        background: #e6e6e6;
+    }
+    .slide-menu ul li{
+        padding: 0.4rem 0;
+    }
+    .menu-bar{
+        display: block;
+    }
+    .single-header-top{
+        width: 85%;
+        text-align: center;
+    }
+
+    .jackpot-header {
+        margin-bottom: 5.5rem;
+    }
+    .jackpot-header h2 {
+        font-size: 2.95rem;
+    }
+
+    .download-location img {
+        width: 80%;
+    }
+
+    
+}
+
+@media all and (max-width:768px){
+    .single-header-top {
+        width: 90%;
+    }
+
+    .jackpot-header {
+        grid-gap: 2rem;
+        -ms-grid-columns: auto;
+            grid-template-columns: auto;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .jackpot-header h2 {
+        font-size: 3rem;
+        max-width: 500px;
+    }
+    .jackpot-header p {
+        max-width: 500px;
+    }
+
+    .jackpot-icon-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .jacpot-content p {
+        max-width: 380px;
+    }
+
+    .designer-img img {
+        margin: auto;
+        width: 100%;
+    }
+
+    .choose-header h2 {
+        width: 80%;
+    }
+
+    .built-background-image img{
+        width: 80%;
+    }
+
+    .client-background img {
+        width: 85%;
+        display: block;
+    }
+
+    .questions h3{
+        font-size: 1.8rem;
+    }
+    .questions a {
+        margin-left: 2rem;
+    }
+
+    .download-content h2 {
+        font-size: 4rem;
+    }
+
+    .download-location img {
+        width: 85%;
+    }
+}
+
+@media all and (max-width:576px){
+    .single-header-top {
+        width: 100%;
+    }
+
+    .choose-apps {
+        -ms-grid-columns: auto;
+            grid-template-columns: auto;
+        grid-gap: 2rem;
+    }
+    .apps {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .built-content {
+        -ms-grid-columns: auto;
+            grid-template-columns: auto;
+        grid-gap: 3rem;
+    }
+    .built-header {
+        max-width: 400px;
+        margin-left: 2rem;
+    }
+    .built {
+        margin-bottom: 1.5rem;
+        padding: 0 2rem;
+    }
+    .built-background-image {
+        margin-top: 3rem;
+    }
+
+    .amount-slider-list {
+        -ms-grid-columns: auto;
+            grid-template-columns: auto;
+        max-width: 300px;
+        margin: auto;
+    }
+    .slider-lists {
+        margin-bottom: 2rem;
+    }
+
+    .question-header {
+        padding: 4.5rem 2rem;
+    }
+    .questions {
+        padding: 2rem 2rem 1rem;
+    }
+
+    .play-stores {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .play-stores a {
+        margin: 0 0.5rem;
+    }
+
+    .footer .menu ul {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 2rem 0;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .footer .menu ul li a {
+        margin-top: 1rem;
+    }
+
+    .download-location img {
+        width: 95%;
+    }
+
+}
+
+@media all and (max-width:480px){
+    .single-header h1 {
+        font-size: 4.8rem;
+    }
+    .menu-btn-area .btn-sty-01{
+        display: none;
+    }
+    .header-content {
+        -ms-flex-wrap: inherit;
+            flex-wrap: inherit;
+    }
+    .single-header span {
+        padding: 0.3rem 0 0.2rem 0;
+        font-size: 1.6rem;
+    }
+    .header-btns {
+        display: -ms-inline-grid;
+        display: inline-grid;
+    }
+    .header-btns .link {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+    .header-inage img {
+        margin-left: 0;
+    }
+
+    .amount-slider a {
+        padding: 1rem 3.3rem;
+    }
+
+    
+    .play-stores img {
+        width: 150px;
+    }
+    .download-content p {
+        margin-bottom: 3rem;
+    }
+
+}
