@@ -148,6 +148,7 @@ a{
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
+    overflow-x: hidden;
 }
 .header-items{
     display: -ms-grid;
@@ -281,6 +282,7 @@ a{
 .awesome-area{
     padding: 30px 0;
     padding: 3rem 0;
+    overflow-x: hidden;
 }
 .awesome-image {
     margin-left: -10%;
@@ -349,6 +351,7 @@ a{
 .jackpot-area{
     padding: 20px 0;
     padding: 2rem 0 ;
+    overflow-x: hidden;
 }
 .jackpot-header{
     display: -ms-grid;
@@ -418,6 +421,7 @@ a{
     grid-gap: 4rem;
     -ms-grid-row-align: center;
         align-items: center;
+    overflow-x: hidden;
 }
 .designer-img img{
     margin-left: -10%;
@@ -439,6 +443,7 @@ a{
     border-top: 1px solid rgb(245, 220, 243);
     padding-top: 90px;
     padding-top: 9rem;
+    overflow-x: hidden;
 }
 .choose-header{
     text-align: center;
@@ -480,6 +485,7 @@ a{
 
 .built-area{
     position: relative;
+    overflow-x: hidden;
 }
 .built-area:before{
     content: '';
@@ -542,6 +548,7 @@ a{
 .amount-area{
     padding-top: 30px;
     padding-top: 3rem;
+    overflow-x: hidden;
 }
 .amount-full-area{
     text-align: center;
@@ -688,6 +695,7 @@ a{
     background: url('../images/maps/mans-images.png') no-repeat;
     margin: 40px 0 40px;
     margin: 4rem 0 4rem;
+    overflow-x: hidden;
 }
 .client-area-width {
      display: -webkit-box;
@@ -799,6 +807,7 @@ a{
 .question-area{
     margin-bottom: 40px;
     margin-bottom: 4rem;
+    overflow-x: hidden;
 }
 .question-full-area{
     max-width: 970px;
@@ -854,6 +863,7 @@ a{
     padding: 60px;
     padding: 6rem;
     background: url('../images/maps/location-image.png') no-repeat right top/contain;
+    overflow-x: hidden;
 }
 .download-content{
     max-width: 650px;
@@ -886,6 +896,7 @@ a{
     background: #09142E;
     padding: 70px 0;
     padding: 7rem 0;
+    overflow-x: hidden;
 }
 .footer .menu ul{
     -webkit-box-pack: center;
