@@ -256,6 +256,7 @@ a{
     text-align: center;
     margin: 40px;
     margin: 4rem;
+    overflow-x: hidden;
 }
 .company-name{
     display: -webkit-box;
